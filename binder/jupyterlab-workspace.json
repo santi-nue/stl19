@@ -1,0 +1,62 @@
+{
+    "data": {
+        "file-browser-filebrowser:cwd": {
+            "path": ""
+        },
+        "dask-dashboard-launcher:individual-progress": {
+            "data": {
+                "route": "individual-progress",
+                "label": "Progress"
+            }
+        },
+        "dask-dashboard-launcher:individual-task-stream": {
+            "data": {
+                "route": "individual-task-stream",
+                "label": "Task Stream"
+            }
+        },
+        "layout-restorer:data": {
+            "main": {
+                "dock": {
+                    "type": "split-area",
+                    "orientation": "horizontal",
+                    "sizes": [
+                        0.5,
+                        0.5
+                    ],
+                    "children": [
+                        {
+                            "type": "split-area",
+                            "orientation": "vertical",
+                            "sizes": [
+                                0.5,
+                                0.5
+                            ]
+ 
+                        }
+                    ]
+                },
+                "mode": "multiple-document"
+            },
+            "left": {
+                "collapsed": false,
+                "current": "filebrowser",
+                "widgets": [
+                    "filebrowser",
+                    "running-sessions",
+                    "command-palette",
+                    "tab-manager"
+                ]
+            },
+            "right": {
+                "collapsed": true,
+                "widgets": []
+            }
+        },
+
+
+    },
+    "metadata": {
+        "id": "/lab"
+    }
+}
