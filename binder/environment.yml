@@ -5,6 +5,5 @@ dependencies:
   - python=3.8
   - jupyterlab
   - nodejs
-  - pip
   - pip:
     - pyqt6
