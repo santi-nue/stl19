@@ -7,4 +7,4 @@ dependencies:
   - nodejs
   - pip
   - pip:
-    -pyqt5
+    - pyqt5
