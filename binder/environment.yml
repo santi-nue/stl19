@@ -4,4 +4,4 @@ channels:
 dependencies:
   - python=3.8
   - jupyterlab
-  - PyQt6
+  - pyqt
