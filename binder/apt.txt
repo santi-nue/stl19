@@ -1,1 +1,4 @@
 python-sip
+qt6-base
+qt6-base-dev
+qt6-tools-dev
